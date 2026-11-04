@@ -5,6 +5,8 @@ html {
 }
 
 body {
+  position: relative;
+  min-height: 100vh;
   color: #333;
   font-size: 0.75rem;
   font-family:
@@ -53,6 +55,7 @@ ul {
   }
   &__logo {
     width: 180px;
+    line-height: 1px;
   }
   &__hamburger-btn {
     position: relative;
@@ -125,6 +128,37 @@ ul {
   }
 }
 
-main {
-  margin-top: 80px;
+// Top
+.top {
+  padding-top: 80px;
+  padding-bottom: 160px;
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 34px;
+  }
+  &__item {
+    img {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+// Footer
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  &__sns {
+    display: flex;
+    li {
+      margin-right: 30px;
+    }
+  }
+  &__copyright {
+    font-size: 0.625rem;
+  }
 }

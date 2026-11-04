@@ -3,6 +3,8 @@ html {
 }
 
 body {
+  position: relative;
+  min-height: 100vh;
   color: #333;
   font-size: 0.75rem;
   font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
@@ -51,6 +53,7 @@ ul {
 }
 .header__logo {
   width: 180px;
+  line-height: 1px;
 }
 .header__hamburger-btn {
   position: relative;
@@ -116,6 +119,33 @@ ul {
   visibility: visible;
 }
 
-main {
-  margin-top: 80px;
+.top {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+.top__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 34px;
+}
+.top__item img {
+  margin-bottom: 10px;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__sns {
+  display: flex;
+}
+.footer__sns li {
+  margin-right: 30px;
+}
+.footer__copyright {
+  font-size: 0.625rem;
 }/*# sourceMappingURL=style.css.map */
