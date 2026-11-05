@@ -148,4 +148,17 @@ ul {
 }
 .footer__copyright {
   font-size: 0.625rem;
+}
+
+@media screen and (max-width: 900px) {
+  .top__list {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 20px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer__sns {
+    margin-bottom: 5px;
+  }
 }/*# sourceMappingURL=style.css.map */

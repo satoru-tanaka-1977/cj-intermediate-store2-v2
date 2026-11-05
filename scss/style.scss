@@ -162,3 +162,20 @@ ul {
     font-size: 0.625rem;
   }
 }
+
+// Responsive 
+@media screen and (max-width: 900px) {
+  .top {
+    &__list {
+      grid-template-columns: 1fr 1fr;
+      gap: 40px 20px;
+    }
+  }
+  .footer {
+    flex-direction: column;
+    &__sns {
+      margin-bottom: 5px;
+    }
+  }
+}
+   
