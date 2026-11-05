@@ -216,6 +216,18 @@ ul {
       grid-template-columns: 1fr 1fr;
       gap: 40px 20px;
     }
+
+    // Item
+    &__item-container {
+      flex-direction: column;
+    }
+    &__item-img {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    &__item-text {
+      width: 100%;
+    }
   }
   .footer {
     flex-direction: column;
@@ -223,5 +235,6 @@ ul {
       margin-bottom: 5px;
     }
   }
+
 }
    
