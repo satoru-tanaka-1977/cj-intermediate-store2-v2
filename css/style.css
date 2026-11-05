@@ -167,6 +167,36 @@ ul {
   padding: 0 20px;
 }
 
+.wrapper--item {
+  max-width: 800px;
+}
+
+.top__item-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.top__item-img {
+  width: 50%;
+}
+.top__item-text {
+  width: 42%;
+  font-size: 0.875rem;
+}
+.top__item-text p {
+  margin-bottom: 30px;
+}
+.top__item-spec {
+  display: flex;
+  flex-wrap: wrap;
+}
+.top__item-spec dt {
+  width: 30%;
+}
+.top__item-spec dd {
+  width: 70%;
+}
+
 @media screen and (max-width: 900px) {
   .top__list {
     grid-template-columns: 1fr 1fr;

@@ -177,6 +177,38 @@ ul {
   margin-top: 40px;
   li {padding: 0 20px;}
 }
+
+// Item
+.wrapper--item {
+  max-width: 800px;
+}
+.top {
+&__item-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+&__item-img {
+  width: 50%;
+}
+&__item-text {
+  width: 42%;
+  font-size: 0.875rem;
+  p {
+    margin-bottom: 30px;
+  }
+}
+&__item-spec {
+  display: flex;
+  flex-wrap: wrap;
+  dt{
+    width: 30%;
+  }
+  dd {
+    width: 70%;
+  }
+}
+}
 // Responsive 
 @media screen and (max-width: 900px) {
   .top {
