@@ -197,6 +197,16 @@ ul {
   width: 70%;
 }
 
+.wrapper--about-company {
+  max-width: 600px;
+}
+
+.top__about-text {
+  font-size: 0.875rem;
+  margin-bottom: 30px;
+  line-height: 1.9;
+}
+
 @media screen and (max-width: 900px) {
   .top__list {
     grid-template-columns: 1fr 1fr;

@@ -175,7 +175,9 @@ ul {
   justify-content: center;
   font-size: 0.875rem;
   margin-top: 40px;
-  li {padding: 0 20px;}
+  li {
+    padding: 0 20px;
+  }
 }
 
 // Item
@@ -183,33 +185,43 @@ ul {
   max-width: 800px;
 }
 .top {
-&__item-container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 60px;
+  &__item-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  &__item-img {
+    width: 50%;
+  }
+  &__item-text {
+    width: 42%;
+    font-size: 0.875rem;
+    p {
+      margin-bottom: 30px;
+    }
+  }
+  &__item-spec {
+    display: flex;
+    flex-wrap: wrap;
+    dt {
+      width: 30%;
+    }
+    dd {
+      width: 70%;
+    }
+  }
 }
-&__item-img {
-  width: 50%;
+
+// About
+.wrapper--about-company {
+  max-width: 600px;
 }
-&__item-text {
-  width: 42%;
+.top__about-text {
   font-size: 0.875rem;
-  p {
-    margin-bottom: 30px;
-  }
+  margin-bottom: 30px;
+  line-height: 1.9;
 }
-&__item-spec {
-  display: flex;
-  flex-wrap: wrap;
-  dt{
-    width: 30%;
-  }
-  dd {
-    width: 70%;
-  }
-}
-}
-// Responsive 
+// Responsive
 @media screen and (max-width: 900px) {
   .top {
     &__list {
@@ -235,6 +247,4 @@ ul {
       margin-bottom: 5px;
     }
   }
-
 }
-   
