@@ -35,6 +35,9 @@ ul {
   font-size: 0.875rem;
   margin-top: 40px;
 }
+.btn:hover {
+  opacity: 0.7;
+}
 
 .header {
   height: 80px;
@@ -167,6 +170,10 @@ ul {
   padding: 0 20px;
 }
 
+.hover-opacity:hover {
+  opacity: 0.7;
+}
+
 .wrapper--item {
   max-width: 800px;
 }
@@ -185,6 +192,7 @@ ul {
 }
 .top__item-text p {
   margin-bottom: 30px;
+  text-align: justify;
 }
 .top__item-spec {
   display: flex;
