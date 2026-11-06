@@ -34,6 +34,7 @@ ul {
   text-align: center;
   font-size: 0.875rem;
   margin-top: 40px;
+  transition: all 0.5s;
 }
 .btn:hover {
   opacity: 0.7;
@@ -149,6 +150,9 @@ ul {
 .footer__sns li {
   margin-right: 30px;
 }
+.footer__sns a:hover {
+  opacity: 0.7;
+}
 .footer__copyright {
   font-size: 0.625rem;
 }
@@ -168,6 +172,10 @@ ul {
 }
 .pagination li {
   padding: 0 20px;
+}
+
+.hover-opacity {
+  transition: all 0.5s;
 }
 
 .hover-opacity:hover {
@@ -224,7 +232,7 @@ ul {
 .top__company-info dt {
   width: 30%;
   padding: 20px 10px;
-  border-bottom: solid 1px #DCDBDB;
+  border-bottom: solid 1px #dcdbdb;
 }
 .top__company-info dt:nth-of-type(6) {
   border-bottom: none;
@@ -232,7 +240,7 @@ ul {
 .top__company-info dd {
   width: 70%;
   padding: 20px 10px;
-  border-bottom: solid 1px #DCDBDB;
+  border-bottom: solid 1px #dcdbdb;
 }
 .top__company-info dd:nth-of-type(6) {
   border-bottom: none;
