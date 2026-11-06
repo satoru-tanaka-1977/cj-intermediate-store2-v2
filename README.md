@@ -37,4 +37,4 @@ https://satoru-tanaka-1977.github.io/cj-intermediate-store2-v2/
 
 ## 制作状況
 
-制作中（2026.11.3〜）
+完成（2026.11.3〜11.6）
